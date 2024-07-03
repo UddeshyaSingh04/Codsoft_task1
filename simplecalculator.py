@@ -64,6 +64,6 @@ for (text, row, column) in buttons:
 
 for i in range(5):
     root.grid_rowconfigure(i, weight=1)
-    root.grid_columnconfigure(i, weight=1)
+    root.grid_columnconfigure(i, weight=1) 
 
 root.mainloop()
